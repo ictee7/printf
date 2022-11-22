@@ -11,6 +11,13 @@ int valid_args(const char **fmt, va_list ap)
 	int i, printed;
 
 	op_t ops[] = {
+		{"i", p_int},
+		{"d", p_d_int},
+		{"b", p_bin},
+		{"u", p_uint},
+		{"o", p_oct},
+		{"x", p_x_min},
+		{"X", p_x_may},
 		{"c", p_char},
 		{"s", p_string},
 		{NULL, NULL}
