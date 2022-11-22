@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
  * int_to_may_hex - int to hex min
  * @n: unsigned int to base 16
