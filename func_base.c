@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
  * int_to_bin - int to binary
  * @n: unsigned int to base 2
